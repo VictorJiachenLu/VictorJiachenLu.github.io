@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# Jiachen Lu 卢嘉晨
 <table border="0">
   <tr>
     <td width="75%">
@@ -12,38 +12,11 @@
     </td>
   </tr>
 </table>
-You can use the [editor on GitHub](https://github.com/VictorLlu/VictorLlu.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VictorLlu/VictorLlu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Biography
+I'm an undergraduate student from UM-JI, Shanghai Jiao Tong University, majoring in Electronic & Computer Engineering. <br>
+My research focuses on computer vision and autonomous driving. What I have done :<br>
+- [An unsupervised impurities detection method based on VAE-GAN](https://github.com/VictorLlu/SurfaceDefectDetection-VAEGAN-TensorFlow)
+- [Path planning and motion control for autonomous RC car](https://github.com/xiabinyu/LL_Cerasus)
+My current research interest is panoptic segmentation.<br>
+As a student of engineering, I also work as the group leader of [SJTU Fomular Student Atonomous Team](https://github.com/CenturyLiu/SJTU-SRT-2019).
