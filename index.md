@@ -28,4 +28,4 @@ As a student of engineering, I also work as the group leader of [SJTU Fomular St
 - Artificial Intelligence
 
 # Contact
-Email: [lujiachen@sjtu.edu.cn](lujiachen@sjtu.edu.cn)
+Email: lujiachen@sjtu.edu.cn
