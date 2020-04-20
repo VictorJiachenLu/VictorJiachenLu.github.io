@@ -18,5 +18,6 @@ I'm an undergraduate student from UM-JI, Shanghai Jiao Tong University, majoring
 My research focuses on computer vision and autonomous driving. What I have done :<br>
 - [An unsupervised impurities detection method based on VAE-GAN](https://github.com/VictorLlu/SurfaceDefectDetection-VAEGAN-TensorFlow)
 - [Path planning and motion control for autonomous RC car](https://github.com/xiabinyu/LL_Cerasus)<br>
+
 My current research interest is panoptic segmentation.<br>
 As a student of engineering, I also work as the group leader of [SJTU Fomular Student Atonomous Team](https://github.com/CenturyLiu/SJTU-SRT-2019).
