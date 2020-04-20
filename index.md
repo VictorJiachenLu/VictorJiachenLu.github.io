@@ -3,11 +3,12 @@
   <tr>
     <td width="75%">
       <h1>Jiachen Lu</h1>
-      <p><b>××UM-JI, Shanghai Jiaotong University</b></p>
+      <p><b>UM-JI, Shanghai Jiaotong University</b></p>
+      <p><b>B.Sc. in Electronic & Computer Engineering</b></p>
       <p><b>email：lujiachen@sjtu.edu.cn</b></p>
     </td>
     <td width="25%">
-      <img src="/JiachenLu.jpg" width="100%">      % 插入证件照代码
+      <img src="/JiachenLu.jpg" width="100%">     
     </td>
   </tr>
 </table>
