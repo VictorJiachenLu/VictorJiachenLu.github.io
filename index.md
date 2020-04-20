@@ -5,6 +5,7 @@
       <h1>Jiachen Lu</h1>
       <p><b>UM-JI, Shanghai Jiaotong University</b></p>
       <p><b>B.Sc. in Electronic & Computer Engineering</b></p>
+      <p><b>CyberC3 Intelligent Vehicle Labs, Shanghai Jiaotong University</b></p>
       <p><b>email：lujiachen@sjtu.edu.cn</b></p>
     </td>
     <td width="25%">
@@ -21,3 +22,8 @@ My research focuses on computer vision and autonomous driving. What I have done 
 
 My current research interest is panoptic segmentation.<br>
 As a student of engineering, I also work as the group leader of [SJTU Fomular Student Atonomous Team](https://github.com/CenturyLiu/SJTU-SRT-2019).
+
+# Interests
+- Computer Vision
+- Deep learning
+- Artificial Intelligence
