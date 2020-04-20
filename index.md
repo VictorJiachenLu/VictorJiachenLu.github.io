@@ -4,8 +4,8 @@
     <td width="75%">
       <h1>Jiachen Lu</h1>
       <p><b><a href="http://umji.sjtu.edu.cn/">University of Michigan - Shanghai Jiao Tong University Joint Institute</a></b></p>
+      <p><b><a href="https://cyberc3.sjtu.edu.cn/">CyberC3 Intelligent Vehicle Labs, Shanghai Jiaotong University</a></b></p>
       <p><b>B.Sc. in Electronic & Computer Engineering</b></p>
-      <p><b>CyberC3 Intelligent Vehicle Labs, Shanghai Jiaotong University</b></p>
       <p><b>email：lujiachen@sjtu.edu.cn</b></p>
     </td>
     <td width="25%">
