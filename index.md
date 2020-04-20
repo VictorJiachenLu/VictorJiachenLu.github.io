@@ -6,7 +6,6 @@
       <p><b><a href="http://umji.sjtu.edu.cn/">University of Michigan - Shanghai Jiao Tong University Joint Institute</a></b></p>
       <p><b><a href="https://cyberc3.sjtu.edu.cn/">CyberC3 Intelligent Vehicle Labs, Shanghai Jiaotong University</a></b></p>
       <p><b>B.Sc. in Electronic & Computer Engineering</b></p>
-      <p><b>email：lujiachen@sjtu.edu.cn</b></p>
     </td>
     <td width="25%">
       <img src="/JiachenLu.jpg" width="100%">     
@@ -27,3 +26,6 @@ As a student of engineering, I also work as the group leader of [SJTU Fomular St
 - Computer Vision
 - Deep learning
 - Artificial Intelligence
+
+# Contact
+Email: [lujiachen@sjtu.edu.cn](lujiachen@sjtu.edu.cn)
