@@ -212,7 +212,7 @@
                 <a href="https://scholar.google.com/citations?user=OECsdBsAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://www.linkedin.com/in/jiachenlu-2454a7224/"> LinkedIn </a> &nbsp/&nbsp
                 <!-- <a href="https://github.com/Andrews2017">Github</a> &nbsp/&nbsp -->
-                <a href="mailto: jclu21@m.fudan.edu.cn"> Email to:</a> jclu21@m.fudan.edu.cn
+                <a href="mailto: jclu21@m.fudan.edu.cn"> Email to:</a> jclu21/at/m.fudan.edu.cn
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -301,26 +301,6 @@
       </tr>
       <tr>
         <td width="25%">
-          <img src='Images/linear_transformer.png' width="280" height="250">
-        </td>
-        <td valign="top" width="75%">
-          <p>
-            <a href="https://arxiv.org/pdf/2207.03341.pdf">
-              <papertitle>Softmax-free Linear Transformers</papertitle>
-            </a>
-            <br>
-            <strong>Jiachen Lu</strong>, Li Zhang, Junge Zhang, Xiatian Zhu, Hang Xu, Jianfeng Feng
-            <br>
-            <em>Arxiv preprint</em>
-            <br>
-            <a href="https://arxiv.org/pdf/2207.03341.pdf">Paper</a>/
-            <a href="https://github.com/fudan-zvg/SOFT">Code</a>
-          </p>
-          <p>Vision transformers (ViTs) have pushed the state-of-the-art for various visual recognition tasks by patch-wise image tokenization followed by stacked self-attention operations. Employing self-attention modules results in a quadratic complexity in both computation and memory usage. Various attempts on approximating the self-attention computation with linear complexity have thus been made in Natural Language Processing. However, an in-depth analysis in this work reveals that they are either theoretically flawed or empirically ineffective for visual recognition. We identify that their limitations are rooted in retaining the softmax self-attention during approximations. Specifically, conventional self-attention is computed by normalizing the scaled dot-product between token feature vectors. Preserving the softmax operation challenges any subsequent linearization efforts. Under this insight, a SOftmax-Free Transformer (abbreviated as SOFT) is proposed for the first time. To eliminate the softmax operator in self-attention, a Gaussian kernel function is adopted to replace the dot-product similarity. This enables a full self-attention matrix to be approximated via a low-rank matrix decomposition. The robustness of our approximation is achieved by calculating its Moore-Penrose inverse using a Newton-Raphson method. <strong>Further, an efficient symmetric normalization is introduced on the low-rank self-attention for enhancing model generalizability and transferability.</strong> Extensive experiments on ImageNet, COCO and ADE20K show that our SOFT significantly improves the computational efficiency of existing ViT variants. Crucially, with a linear complexity, much longer token sequences are permitted in SOFT, resulting in superior trade-off between accuracy and complexity.</p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%">
           <img src='Images/ego3rt.png' width="280" height="250">
         </td>
         <td valign="top" width="75%">
@@ -341,7 +321,7 @@
       </tr>
       <tr>
         <td width="25%">
-          <img src='Images/soft.png' width="280" height="250">
+          <img src='Images/soft_eg.png' width="280" height="250">
         </td>
         <td valign="top" width="75%">
           <p>
@@ -378,7 +358,27 @@
           </p>
           <p>Most recent semantic segmentation methods adopt a fully-convolutional network (FCN) with an encoder-decoder architecture. The encoder progressively reduces the spatial resolution and learns more abstract/semantic visual concepts with larger receptive fields. Since context modeling is critical for segmentation, the latest efforts have been focused on increasing the receptive field, through either dilated/atrous convolutions or inserting attention modules. However, the encoder-decoder based FCN architecture remains unchanged. In this paper, we aim to provide an alternative perspective by treating semantic segmentation as a sequence-to-sequence prediction task. Specifically, we deploy a pure transformer (ie, without convolution and resolution reduction) to encode an image as a sequence of patches. With the global context modeled in every layer of the transformer, this encoder can be combined with a simple decoder to provide a powerful segmentation model, termed SEgmentation TRansformer (SETR). Extensive experiments show that SETR achieves new state of the art on ADE20K (50.28% mIoU), Pascal Context (55.83% mIoU) and competitive results on Cityscapes. Particularly, we achieve the first position in the highly competitive ADE20K test server leaderboard on the day of submission.</p>
         </td>
-      </tr>     
+      </tr>
+      <tr>
+        <td width="25%">
+          <img src='Images/linear_transformer.png' width="280" height="250">
+        </td>
+        <td valign="top" width="75%">
+          <p>
+            <a href="https://arxiv.org/pdf/2207.03341.pdf">
+              <papertitle>Softmax-free Linear Transformers</papertitle>
+            </a>
+            <br>
+            <strong>Jiachen Lu</strong>, Li Zhang, Junge Zhang, Xiatian Zhu, Hang Xu, Jianfeng Feng
+            <br>
+            <em>Arxiv preprint</em>
+            <br>
+            <a href="https://arxiv.org/pdf/2207.03341.pdf">Paper</a>/
+            <a href="https://github.com/fudan-zvg/SOFT">Code</a>
+          </p>
+          <p>Vision transformers (ViTs) have pushed the state-of-the-art for various visual recognition tasks by patch-wise image tokenization followed by stacked self-attention operations. Employing self-attention modules results in a quadratic complexity in both computation and memory usage. Various attempts on approximating the self-attention computation with linear complexity have thus been made in Natural Language Processing. However, an in-depth analysis in this work reveals that they are either theoretically flawed or empirically ineffective for visual recognition. We identify that their limitations are rooted in retaining the softmax self-attention during approximations. Specifically, conventional self-attention is computed by normalizing the scaled dot-product between token feature vectors. Preserving the softmax operation challenges any subsequent linearization efforts. Under this insight, a SOftmax-Free Transformer (abbreviated as SOFT) is proposed for the first time. To eliminate the softmax operator in self-attention, a Gaussian kernel function is adopted to replace the dot-product similarity. This enables a full self-attention matrix to be approximated via a low-rank matrix decomposition. The robustness of our approximation is achieved by calculating its Moore-Penrose inverse using a Newton-Raphson method. <strong>Further, an efficient symmetric normalization is introduced on the low-rank self-attention for enhancing model generalizability and transferability.</strong> Extensive experiments on ImageNet, COCO and ADE20K show that our SOFT significantly improves the computational efficiency of existing ViT variants. Crucially, with a linear complexity, much longer token sequences are permitted in SOFT, resulting in superior trade-off between accuracy and complexity.</p>
+        </td>
+      </tr>
       </table>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
